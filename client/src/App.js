@@ -1,10 +1,12 @@
 import React from "react";
-import SideNav from "./SideNav/SideNav";
+import LodgingCard from "./LodgingCard/LodgingCard";
+// import SideNav from "./SideNav/SideNav";
 
 const App = () => {
   return (
     <section>
-      <SideNav />
+      {/* <SideNav /> */}
+      <LodgingCard />
     </section>
   );
 };
