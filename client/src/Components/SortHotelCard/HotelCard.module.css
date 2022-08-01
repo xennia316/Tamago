@@ -1,0 +1,57 @@
+.cardBody {
+    height: 5rem;
+    width: 25rem;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    background-color: aquamarine;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.imageDiv,
+.hotelNameDiv,
+.hotelLocationDiv,
+.hotelPriceDiv,
+.hotelLocation,
+.hotelName,
+.hotelPrice,
+.locationIcon,
+span {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.locationIcon {
+    color: #3d94ff;
+}
+
+
+.locationIcon,
+.hotelPrice {
+    padding-right: .5rem;
+}
+
+.hotelName,
+.hotelPrice {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.imageDiv {
+    width: 25%;
+    height: 100%;
+}
+
+.hotelPrice {
+    font-size: 20px;
+    font-weight: 900;
+}
