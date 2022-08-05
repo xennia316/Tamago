@@ -1,0 +1,12 @@
+.body {
+    padding: 5rem auto;
+    width: 70%;
+    background-color: transparent;
+    height: 100vh;
+}
+
+.inputSection {
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+}
