@@ -29,3 +29,6 @@
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
 }
+.actualInput:focus+.sideIcon {
+    background-color: #000;
+}
