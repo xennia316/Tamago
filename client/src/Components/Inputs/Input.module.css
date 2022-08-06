@@ -8,6 +8,7 @@
 }
 
 .actualInput {
+    position: relative;
     width: 70%;
     height: 100%;
     background-color: #fefefe;
@@ -29,6 +30,22 @@
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
 }
-.actualInput:focus+.sideIcon {
-    background-color: #000;
+.label {
+    background-color: transparent;
+    text-align: center;
+    top: 1rem;
+    left: 3%;
+    position: fixed;
+    width: 3rem;
+    height: 2rem;
+    font-size: 20px;
+}
+
+.actualInput:focus+.label {
+    margin-top: -1.5rem;
+
+}
+
+.actualInput:focus {
+    border: 2px solid #435923;
 }
