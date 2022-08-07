@@ -9,8 +9,8 @@ const App = () => {
     <section>
       {/* <HotelCard /> */}
       {/* <LodgingCard /> */}
-      {/* <SideNav /> */}
-      <Input />
+      <SideNav />
+      {/* <Input /> */}
     </section>
   );
 };

@@ -2,12 +2,13 @@ import React from "react";
 import styles from "./SideNav.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faWindowClose,
   faShareFromSquare,
   faHeart,
   faBuilding,
   faArrowAltCircleLeft,
 } from "@fortawesome/free-regular-svg-icons";
+
+import { faGear, faHomeAlt } from "@fortawesome/free-solid-svg-icons";
 
 import { faBell } from "@fortawesome/free-regular-svg-icons";
 const SideNav = () => {
@@ -16,7 +17,7 @@ const SideNav = () => {
       <section className={styles.top}>Tamago</section>
       <section className={styles.contents}>
         <section className={styles.content}>
-          <FontAwesomeIcon icon={faBuilding} className={styles.icon} />
+          <FontAwesomeIcon icon={faHomeAlt} className={styles.icon} />
           Dashboard
         </section>
         <section className={styles.content}>
@@ -32,7 +33,7 @@ const SideNav = () => {
           Favorite
         </section>
         <section className={styles.content}>
-          <FontAwesomeIcon icon={faWindowClose} className={styles.icon} />
+          <FontAwesomeIcon icon={faGear} className={styles.icon} />
           Settings
         </section>
       </section>
