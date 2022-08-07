@@ -7,8 +7,8 @@ import HotelCard from "./Components/SortHotelCard/HotelCard";
 const App = () => {
   return (
     <section>
-      {/* <HotelCard /> */}
-      <LodgingCard />
+      <HotelCard />
+      {/* <LodgingCard /> */}
       {/* <SideNav /> */}
       {/* <Input /> */}
     </section>
