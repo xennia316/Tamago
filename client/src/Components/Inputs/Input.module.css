@@ -38,21 +38,23 @@
 .label {
     background-color: transparent;
     text-align: center;
-    top: 1rem;
+    top: 1.2rem;
     left: 3%;
     position: fixed;
     width: 3rem;
+    z-index: 10;
     height: 2rem;
     font-size: 20px;
 }
 
 .actualInput:focus+.label {
     margin-top: -1.5rem;
-
+    background-color: #fefefefe;
 }
 
 .actualInput:focus {
-    border-top: 2px solid #435923;
-    border-right: 2px solid #435923;
-    border-bottom: 2px solid #435923;
-}
+    border-top: 2px solid #3d94ff;
+    border-right: 2px solid #3d94ff;
+    border-bottom: 2px solid #3d94ff;
+    }
+    
