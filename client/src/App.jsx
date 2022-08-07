@@ -8,8 +8,8 @@ const App = () => {
   return (
     <section>
       {/* <HotelCard /> */}
-      {/* <LodgingCard /> */}
-      <SideNav />
+      <LodgingCard />
+      {/* <SideNav /> */}
       {/* <Input /> */}
     </section>
   );
