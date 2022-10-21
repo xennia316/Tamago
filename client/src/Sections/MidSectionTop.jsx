@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "../Inputs/Input";
+import Input from "../Components/Inputs/Input";
 import Styles from "./MidSectionTop.module.css";
 
 const MidSectionTop = () => {
