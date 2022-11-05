@@ -1,7 +1,12 @@
 import React from "react";
+import Routers from "./Routes/Router.navigation";
 
 const App = () => {
-  return <section></section>;
+  return (
+    <section>
+      <Routers />
+    </section>
+  );
 };
 
 export default App;
