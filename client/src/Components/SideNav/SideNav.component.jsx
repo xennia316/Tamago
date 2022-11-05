@@ -1,16 +1,17 @@
 import React from "react";
 import styles from "./SideNav.module.css";
+
+// Importing icons from fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faShareFromSquare,
   faHeart,
-  faBuilding,
   faArrowAltCircleLeft,
 } from "@fortawesome/free-regular-svg-icons";
 
 import { faGear, faHomeAlt } from "@fortawesome/free-solid-svg-icons";
-
 import { faBell } from "@fortawesome/free-regular-svg-icons";
+
 const SideNav = () => {
   return (
     <section className={styles.body}>

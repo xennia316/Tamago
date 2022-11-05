@@ -1,6 +1,6 @@
 import React from "react";
 
-import Styles from "./Input.module.css";
+import Styles from "./Input1.module.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";

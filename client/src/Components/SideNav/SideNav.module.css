@@ -18,6 +18,9 @@
     width: 90%;
     background-color: transparent;
 }
+.content:last-child {
+    border-bottom-left-radius: 25px;
+}
 .content {
     background-color: #fff;
     font-size: 28px;
@@ -48,17 +51,12 @@
 
 .content:hover {
     background-color: transparent;
-    border-left: 3px solid transparent;
-    border-top: 3px solid transparent;
-    /* box-shadow: inset 10px 10px 10px 0 rgba(0, 0, 0, 0.3); */
     color: #3d94ff;
     border-right: 5px solid #3d94ff;
     font-size: 28px;
     cursor: pointer;
 }
 
-
 .icon {
     background-color: transparent;
 }
-
