@@ -5,8 +5,7 @@ import Styles from "./Input.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
-
-const Input = () => {
+const Input1 = () => {
   return (
     <section className={Styles.inputBody}>
       <div className={Styles.sideIcon}>
@@ -18,4 +17,4 @@ const Input = () => {
   );
 };
 
-export default Input;
+export default Input1;
