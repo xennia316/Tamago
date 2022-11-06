@@ -1,18 +1,25 @@
 import React from "react";
 
-import Styles from "./Input1.module.css";
+import styles from "./Input1.module.css";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Input1 = () => {
   return (
-    <section className={Styles.inputBody}>
-      <div className={Styles.sideIcon}>
-        <FontAwesomeIcon icon={faLocationDot} className={Styles.icon} />
+    <section className={`${styles.section}`}>
+      <div className={`${styles.inputContainer}`}>
+        <input
+          id="name"
+          className={`${styles.input}`}
+          type="text"
+          pattern=".+"
+          required
+        />
+        <label className={`${styles.label}`} for="name">
+          Nome
+        </label>
       </div>
-      <input className={Styles.actualInput} type="text" />
-      <label className={Styles.label}>Name</label>
     </section>
   );
 };
