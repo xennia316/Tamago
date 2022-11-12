@@ -1,11 +1,14 @@
 import React from "react";
-import { Input1, SideNav } from "../../Components";
+import styles from "./Home.module.css";
+import { SideNav } from "../../Components";
+import { MidSectionTop } from "../../Sections";
 
 const Home = () => {
   return (
-    <div>
+    <section className={`${styles.homeWrapper}`}>
       <SideNav />
-    </div>
+      <MidSectionTop />
+    </section>
   );
 };
 
