@@ -5,7 +5,6 @@ const Home = () => {
   return (
     <div>
       <SideNav />
-      <Input1 />
     </div>
   );
 };
