@@ -19,20 +19,21 @@ const SideNav = () => {
 
   return (
     <section className={styles.body}>
-      <section
-        onClick={() => {
-          setOpen(!open);
-        }}
-        className={`${styles.topContainer}`}
-      >
+      <section className={`${styles.topContainer}`}>
         <section className={styles.top}>Tamago</section>
         {open ? (
           <FontAwesomeIcon
+            onClick={() => {
+              setOpen(!open);
+            }}
             className={`${styles.toggleIcon}`}
             icon={faRectangleXmark}
           />
         ) : (
           <FontAwesomeIcon
+            onClick={() => {
+              setOpen(!open);
+            }}
             className={`${styles.toggleIcon}`}
             icon={faListAlt}
           />
