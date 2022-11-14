@@ -1,6 +1,11 @@
 
-.inputSection {
-    width: 50%;
-    background-color: transparent;
-    display: flex;
+.body{
+    background-color: #f2f2f2;
+    width: 60%;
+}
+.heading,.headingText,.inputSection{
+    background-color: #f2f2f2;
+}
+.headingText{
+    font-size: 28px;
 }
