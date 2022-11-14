@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "../Components/Inputs/Input";
+import { Input1 } from "../../Components";
 import Styles from "./MidSectionTop.module.css";
 
 const MidSectionTop = () => {
@@ -10,8 +10,7 @@ const MidSectionTop = () => {
       </section>
       <section>
         <section className={Styles.inputSection}>
-          <Input />
-          <Input />
+          <Input1 type={"date"} label={"Date"} id={"date"} />
         </section>
         <section className={Styles.ButtonSection}></section>
       </section>
