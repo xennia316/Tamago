@@ -4,6 +4,7 @@ import { Input1, SideNav } from "../../Components";
 const Home = () => {
   return (
     <div>
+      <SideNav />
       <Input1 />
     </div>
   );
