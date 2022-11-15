@@ -1,11 +1,10 @@
 import React from "react";
-import { Input1, SideNav } from "../../Components";
+import { SideNav } from "../../Components";
 
 const Home = () => {
   return (
     <div>
       <SideNav />
-      <Input1 />
     </div>
   );
 };
