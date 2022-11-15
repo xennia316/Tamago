@@ -1,10 +1,10 @@
 import React from "react";
-import { SideNav } from "../../Components";
+import { Input1, SideNav } from "../../Components";
 
 const Home = () => {
   return (
     <div>
-      <SideNav />
+      <Input1 />
     </div>
   );
 };
