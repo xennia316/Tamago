@@ -6,22 +6,7 @@ import styles from "./Input1.module.css";
 // import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Input1 = ({ id, type, label }) => {
-  return (
-    <section className={`${styles.section}`}>
-      <div className={`${styles.inputContainer}`}>
-        <input
-          id={id}
-          className={`${styles.input}`}
-          type={type}
-          pattern=".+"
-          required
-        />
-        <label className={`${styles.label}`} for={label}>
-          {label}
-        </label>
-      </div>
-    </section>
-  );
+	return <></>;
 };
 
 export default Input1;
