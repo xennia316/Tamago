@@ -1,6 +1,6 @@
-import Input1 from "./Inputs/Input1.component";
-import LodgingCard from "./LodgingCard/LodgingCard.component.jsx";
-import SideNav from "./SideNav/SideNav.component.jsx";
-import HotelCard from "./HotelCard/HotelCard.component.jsx";
+import input1 from "./Inputs/Input1.component";
+import lodgingCard from "./LodgingCard/LodgingCard.component.jsx";
+import sideNav from "./SideNav/SideNav.component.jsx";
+import hotelCard from "./HotelCard/HotelCard.component.jsx";
 
-export { Input1, LodgingCard, SideNav, HotelCard };
+export { input1, lodgingCard, sideNav, huotelCard };
