@@ -24,4 +24,8 @@ Get involved in a few simple steps.
 3. Create a branch and make your changes.
 4. Push to your branch.
 5. Open a pull request.
+6. Add your name to the list of contributors below.
+
+##Contributors
+1. Amehmbo Ngewung Sonia (@xenia316)
  
