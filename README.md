@@ -6,6 +6,7 @@ This is the first project of many, that aims at presenting something close to ai
   - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Getting Started](#getting-started)
+  - [Contributors](#contributors)
 
 ## About
  - We want to give users a platform to explore hotel rooms before booking, without necessarily being present at the scene.
@@ -26,6 +27,6 @@ Get involved in a few simple steps.
 5. Open a pull request.
 6. Add your name to the list of contributors below.
 
-##Contributors
+## Contributors
 1. Amehmbo Ngewung Sonia (@xenia316)
  
